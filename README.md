@@ -1,4 +1,4 @@
-# Sekerme Ecommerce 🛒 en flutter
+# SekerMe Ecommerce 🛒 en flutter
 
 _Nuestra aplicación de comercio electrónico en Flutter es una solución completa y poderosa para realizar compras en línea de manera fácil y conveniente. Con una interfaz de usuario intuitiva y atractiva, te proporcionamos una experiencia de compra única y gratificante._
 
@@ -23,7 +23,8 @@ _Para poder ejecutar esta aplicación debes de tener previamente los siguientes 
 
 ### Instalación 🔧
 
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
+
+_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutándose_
 
 _Dí cómo será ese paso_
 
@@ -65,15 +66,14 @@ _Agrega notas adicionales sobre como hacer deploy_
 
 ## Construido con 🛠️
 
-_Menciona las herramientas que utilizaste para crear tu proyecto_
+_Las siguientes dependencias son necesarias para poder ejecutar el aplicativo correctamente_
 
-* [Node](https://nodejs.org/es/docs/)       - Entorno de desarrollo para JavaScript
-* [Express](https://expressjs.com/)         - Framework web para node.js
-* [Sequelize](https://sequelize.org/)       - ORM para node.js
-* [Npm](https://www.npmjs.com/)             - Manejador de dependencias
-* [Tailwind](https://tailwindcss.com/)      - Framework CSS
-* [PostgreSQL](https://www.postgresql.org/) - Base de datos
-* [Git](https://git-scm.com/)               - Sistema de control de versiones
+* [Flutter](https://flutter.dev/docs/get-started/install) - Framework para desarrollo de aplicaciones móviles.
+    #### Dependencias
+* [Firebase](https://firebase.google.com/) - Plataforma de desarrollo de aplicaciones móviles
+* [Go Router](https://pub.dev/packages/go_router) - Librería para manejo de rutas en flutter
+* [Bloc](https://pub.dev/packages/flutter_bloc) - Librería para manejo de estados en flutter
+
 
 ## Contribuyendo 🖇️
 
@@ -92,9 +92,9 @@ Usamos [SemVer](https://semver.org/lang/es/) para el versionado. Para todas las 
 _Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
 
 * **Luis Felipe Villamizar Torres** - *Trabajo Inicial* - [Kronomus](https://github.com/Kronomus)
-* **Fulanito Detal** - *Documentación* - [fulanitodetal](#fulanito-de-tal)
 
-También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto.
+
+También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quienes han participado en este proyecto.
 
 ## Licencia 📄
 
@@ -102,6 +102,6 @@ Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md
 
 ## Expresiones de Gratitud 🎁
 
-* Agradecimiento a [Villanuevand](https://github.com/Villanuevand) por la adecuacion y traduccion al español del documento README.md
+* Agradecimiento a [Villanuevand](https://github.com/Villanuevand) por la adecuación y traducción al español del documento README.md
 
 
