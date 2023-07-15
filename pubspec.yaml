@@ -88,3 +88,14 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+  fonts:
+    - family: Odin Rounded
+      fonts:
+        - asset: assets/fonts/OdinRounded/Odin Rounded - Regular.otf
+        - asset: assets/fonts/OdinRounded/Odin Rounded - Regular Italic.otf
+        - asset: assets/fonts/OdinRounded/Odin Rounded - Bold.otf
+        - asset: assets/fonts/OdinRounded/Odin Rounded - Bold Italic.otf
+        - asset: assets/fonts/OdinRounded/Odin Rounded - Light.otf
+        - asset: assets/fonts/OdinRounded/Odin Rounded - Light Italic.otf
+
+

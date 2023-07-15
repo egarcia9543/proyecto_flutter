@@ -22,6 +22,7 @@ class AppTheme{
     return ThemeData(
       useMaterial3: true,
       colorSchemeSeed: _colorTheme[selectedThemeColor],
+      fontFamily: 'Odin Rounded',
       appBarTheme: AppBarTheme(
         backgroundColor: _colorTheme[selectedThemeColor],
         foregroundColor: Colors.white,
