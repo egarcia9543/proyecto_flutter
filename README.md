@@ -1,13 +1,17 @@
 # SekerMe Ecommerce 🛒 en flutter
-
 _Nuestra aplicación de comercio electrónico en Flutter es una solución completa y poderosa para realizar compras en línea de manera fácil y conveniente. Con una interfaz de usuario intuitiva y atractiva, te proporcionamos una experiencia de compra única y gratificante._
+_Esta aplicación está elaborada como material didáctico para el aprendizaje de flutter y su integración con firebase para aprendices del SENA_
 
 ## Comenzando 🚀
 
-_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
-
-Mira **Deployment** para conocer como desplegar el proyecto.
-
+1. Inicia sesión en tu cuenta de GitHub en https://github.coom.
+2. Navega hasta el proyecto que deseas copiar. Asegúrate de estar en la página principal del repositorio.
+3. En la esquina superior derecha de la página, encontrarás un botón llamado "Fork". (bifurcar). Haz clic en él.
+4. Serás redirigido a la página de tu propia copia del proyecto en tu cuenta de GitHub. Ahora tendrás una versión idéntica del repositorio original, pero bajo tu propia cuenta.
+   <br> si deseas tener una copia local del repositorio en tu máquina, puedes clonarlo utilizando el siguiente comando de Git.
+    ```
+   git clone https://github.com/Kronomus/sekerme_ecommerce.git
+    ```
 
 ### Pre-requisitos 📋
 
