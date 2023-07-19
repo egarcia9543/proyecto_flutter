@@ -44,11 +44,11 @@ dependencies:
   # equatable Un paquete de utilidad para comparar objetos en Dart.
   equatable: ^2.0.5
   #fire base core Un paquete de Flutter que proporciona una API de plataforma unificada para autenticación, Cloud Firestore, Cloud Functions, Cloud Messaging, Cloud Storage, Remote Config y más.
-  firebase_core: ^2.15.0
+  #firebase_core: ^2.15.0
   #clud firestore Un paquete de Flutter que proporciona una API de plataforma unificada para autenticación, Cloud Firestore, Cloud Functions, Cloud Messaging, Cloud Storage, Remote Config y más.
-  cloud_firestore: ^4.8.3
+  #cloud_firestore: ^4.8.3
   #firebase storage Un paquete de Flutter que proporciona una API de plataforma unificada para autenticación, Cloud Firestore, Cloud Functions, Cloud Messaging, Cloud Storage, Remote Config y más.
-  firebase_auth: ^4.7.1
+  #firebase_auth: ^4.7.1
 
 dev_dependencies:
   flutter_test:
