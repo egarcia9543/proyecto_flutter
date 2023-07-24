@@ -11,14 +11,7 @@ class App extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: AppTheme(selectedThemeColor: 0 ).theme(),
-      home: Scaffold(
-        appBar: AppBar(
-          title: const Text('Flutter Demo'),
-        ),
-        body: const Center(
-          child: Text('Hello World') ,
-        ),
-      ),
+      home: const Scaffold(),
     );
   }
 }
