@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'config/themes/theme.dart';
+import 'presentation/views/views_links.dart';
 
 
 class App extends StatelessWidget {
@@ -10,8 +11,9 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
-      theme: AppTheme(selectedThemeColor: 0 ).theme(),
-      home: const Scaffold(),
+      debugShowCheckedModeBanner: false,
+      theme: AppTheme(selectedThemeColor: 0).theme(),
+      home: const LoginView(),
     );
   }
 }
