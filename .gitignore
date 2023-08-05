@@ -45,3 +45,7 @@ app.*.map.json
 
 # Imagenes Propias
 /assets/images/Sekerme.png
+
+# .Env file
+/assets/global/.env
+
