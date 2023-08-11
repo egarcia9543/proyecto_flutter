@@ -22,6 +22,7 @@ class LoginView extends StatelessWidget {
                   colorFilter:  ColorFilter.mode(
                       Theme.of(context).colorScheme.primary, BlendMode.srcIn
                   ),
+                  
                 ),
 
 
