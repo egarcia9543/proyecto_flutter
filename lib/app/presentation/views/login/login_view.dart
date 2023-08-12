@@ -27,12 +27,11 @@ class LoginView extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   //Logo
-                  SvgPicture.asset('assets/images/MyMarca.svg',
-                    colorFilter:  ColorFilter.mode(
-                      Theme.of(context).colorScheme.primary, BlendMode.srcIn,
-                    ),
-                    alignment: Alignment.topCenter,
-                    height: 180,
+                  Image.asset(
+                    'assets/images/bpc.png',
+                    width: 200,
+                    height: 200,
+                    fit: BoxFit.cover,
                   ),
                   Text('Login to your account',
                     style: TextStyle(
@@ -58,7 +57,12 @@ class LoginView extends StatelessWidget {
                     suffixIcon: true,
                   ),
                   const SizedBox(height: 16.0),
-                  const ForgotPassword(forgotLabel: 'Se te olvidó la contraseña?'),
+                  ElevatedButton(
+                    onPressed: () {
+                      context.go('/recover');
+                    },
+                    child: const Text('Se te olvidó la contraseña?'),
+                  ),
                   const SizedBox(height: 16.0),
                   MyButtonForm(text: 'Sing Up', onTap: (){}),
                   const SizedBox(height: 30.0),

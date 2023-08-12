@@ -4,6 +4,8 @@
 
 
 import 'package:go_router/go_router.dart';
+import 'package:sekerme_ecommerce/app/presentation/views/forgot_password/forgot_%20password_view.dart';
+import 'package:sekerme_ecommerce/app/presentation/views/login/widgets/forgotpassword.dart';
 
 //Archivo que contiene los links de las vistas
 import 'package:sekerme_ecommerce/app/presentation/views/views_links.dart';
@@ -40,7 +42,11 @@ final appRouter = GoRouter(
       name: LoginView.name,
       builder: (context, state) => const LoginView(),
     ),
-
+    GoRoute(
+        path: '/recover',
+        name: ForgotPasswordView.name,
+      builder: (context, state) => const ForgotPasswordView(),
+    )
   ],
 
 );
